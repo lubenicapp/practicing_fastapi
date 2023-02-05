@@ -1,2 +1,2 @@
 CREATE DATABASE web_dev;
-CREATE DATABAASE web_test;
+CREATE DATABASE web_test;

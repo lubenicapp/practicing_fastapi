@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1a4287208d8b0e90d956645fabad53c969fa37aa54c40d8a2c01b04b89ba4109"
+            "sha256": "85e4078e913a525d6c61e9b8261db4926b01fd516c4920c64c0a0028f8fb3d8c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "aiosqlite": {
+            "hashes": [
+                "sha256:6c49dc6d3405929b1d08eeccc72306d3677503cc5e5e43771efc1e00232e8231",
+                "sha256:f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.17.0"
+        },
         "anyio": {
             "hashes": [
                 "sha256:25ea0d673ae30af41a0c442f81cf3b38c7e79fdc7b60335a4c14e05eb0947421",
@@ -55,6 +63,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==3.4"
+        },
+        "iso8601": {
+            "hashes": [
+                "sha256:32811e7b81deee2063ea6d2e94f8819a86d1f3811e49d23623a41fa832bef03f",
+                "sha256:8400e90141bf792bce2634df533dc57e3bee19ea120a87bebcd3da89a58ad73f"
+            ],
+            "markers": "python_version < '4.0' and python_full_version >= '3.6.2'",
+            "version": "==1.1.0"
         },
         "pydantic": {
             "hashes": [
@@ -98,6 +114,21 @@
             "markers": "python_version >= '3.7'",
             "version": "==1.10.4"
         },
+        "pypika-tortoise": {
+            "hashes": [
+                "sha256:2d68bbb7e377673743cff42aa1059f3a80228d411fbcae591e4465e173109fd8",
+                "sha256:d802868f479a708e3263724c7b5719a26ad79399b2a70cea065f4a4cadbebf36"
+            ],
+            "markers": "python_version >= '3.7' and python_version < '4.0'",
+            "version": "==0.1.6"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:01a0681c4b9684a28304615eba55d1ab31ae00bf68ec157ec3708a8182dbbcd0",
+                "sha256:78f4f37d8198e0627c5f1143240bb0206b8691d8d7ac6d78fee88b78733f8c4a"
+            ],
+            "version": "==2022.7.1"
+        },
         "sniffio": {
             "hashes": [
                 "sha256:e60305c5e5d314f5389259b7f22aaa33d8f7dee49763119234af3755c55b9101",
@@ -113,6 +144,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==0.22.0"
+        },
+        "tortoise-orm": {
+            "hashes": [
+                "sha256:9e368820c70a0866ef9c521d43aa5503485bd7a20a561edc0933b7b0f7036fbc",
+                "sha256:ca574bca5191f55608f9013314b1f5d1c6ffd4165a1fcc2f60f6c902f529b3b6"
+            ],
+            "index": "pypi",
+            "version": "==0.19.3"
         },
         "typing-extensions": {
             "hashes": [

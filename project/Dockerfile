@@ -1,5 +1,5 @@
 # pull official base image
-FROM python:3.10.8-slim-buster
+FROM python:3.11
 
 # set working directory
 WORKDIR /usr/src/app
@@ -20,3 +20,8 @@ RUN pip install -r requirements.txt
 
 # add app
 COPY . .
+
+COPY ./entrypoint.sh .
+RUN chmod +x /usr/src/app/entrypoint.sh
+
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
