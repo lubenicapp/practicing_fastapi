@@ -1,0 +1,2 @@
+CREATE DATABASE web_dev;
+CREATE DATABAASE web_test;
